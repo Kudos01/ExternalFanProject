@@ -17,3 +17,23 @@ Once compiled, to register this service in windows, open an administrator PowerS
 
 Replace "MyServiceName" with the name you want for the service and "C:\path\to\service.exe" with the path to your executable that you just compiled. 
 Usually it is found under the "\bin\Debug\" folder in Visual studio code project folder.
+
+To start the service, also in an administrator PowerShell prompt:
+
+`sc.exe start MyServiceName`
+
+Again, replacing `MyServiceName` with the service name you chose before.
+
+# Arduino code
+
+TODO
+
+# Limitations
+
+Some important limitations to take into account is that currently:
+
+- The temperature thresholds cannot be dynamically selected.
+- In order for the service to start, the Arduino needs to be plugged in.
+- The program will stop working if the Arduino is disconected, and you will have to run the start command again
+
+As I mentioned, this is a work-in-progress project, so this list of limitations might shrink, and new features could be added, not only to make the software more robust, but also more user firendly.
