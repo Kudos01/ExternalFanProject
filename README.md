@@ -26,7 +26,7 @@ Again, replacing `MyServiceName` with the service name you chose before.
 
 # Arduino code
 
-TODO
+Open the `external_fan.ino` file in the Arduino Code folder and uplaod it to your board. It uses pin 13 as the enable pin for the fan.
 
 # Limitations
 
