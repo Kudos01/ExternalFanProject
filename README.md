@@ -8,6 +8,10 @@ This project is composed of 2 parts:
 - The Windows service
 - The Arduino code
 
+# Wiring
+
+![](external_fan_schem.png)
+
 # How to run the code
 
 First, you need to open the solution in Microsoft's Visual Studio and compile it. 
