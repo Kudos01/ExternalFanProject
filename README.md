@@ -1,7 +1,5 @@
 # ExternalFanProject
 
-![](intro.JPG)
-
 This is a project to help keep your laptop cool for the summer. It consists of a program that connects to an Arduino board and sends a signal to turn on or off a connected fan depending on the temperature of your CPU. 
 
 It is in early stages and has drawbacks discussed later, but I decided to share it anyway.
