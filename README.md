@@ -12,7 +12,7 @@ This project is composed of 2 parts:
 
 # Wiring
 
-![](external_fan_schem.png)
+![](schematic.png)
 
 # How to run the code
 
